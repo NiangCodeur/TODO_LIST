@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background: #E03FD8;
+}
+.container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    border-radius: 10px;
+    min-height: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+#newtask {
+    position: relative;
+    padding: 30px 20px;
+}
+input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid #E03fd8;
+    outline: none;
+}
+#newtask button {
+    float: right;
+    font-size: 16px;
+    background: #E03FD8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+}
+#taches {
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background: #fff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+.task{
+    border: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #C0F0C5;
+    cursor: pointer;
+    background: #C0F0C5;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.task button {
+    background: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
